@@ -1,0 +1,54 @@
+.board {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .theButton {
+    width: 150px;
+    height: 150px;
+    color: #545863;
+    font-size: 100px;
+    background-color: #00E8FC;
+    box-shadow: 2px 5px #545863;
+    margin: 10px;
+    border-radius: 10px;
+  }
+  
+
+}
+.theReset{
+  text-align: center;
+  color: #545863;
+  
+}
+
+.row {
+  display: flex;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-evenly;
+
+  .status {
+    color: #545863;
+  }
+
+  .resetGroup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .resetButton {
+      background-color: #F96E46;
+      height: 40px;
+      border-radius: 10px;
+      border: solid 1px #545863;
+      margin-left: 5px;
+      
+
+      
+    }
+  }
+}
